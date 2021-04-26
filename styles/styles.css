@@ -1,9 +1,51 @@
+
+/*
+*{
+    outline: 1px solid red;
+}
+*/
+
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+header, section{
+ width: 960px;
+ margin: 0 auto;
+
+}
+
+header{
+ background-color: cornflowerblue;   
+}
+
+
+article{
+    width: 60%;
+}
+
+img{
+  width: 200px; 
+  height: 200px; 
+  margin-right: 16px;
+}
+
 h1{
 color: brown;    
 
 }
 
-button{
-align-self: center;
-align-content: center;
+a, a:link, a:visited{
+    text-decoration: none;
+    color: silver;
+}
+
+.flex{
+    display: flex;
+}
+
+progress{
+    margin-left: 8px;
 }
