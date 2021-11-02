@@ -49,3 +49,13 @@ a, a:link, a:visited{
 progress{
     margin-left: 8px;
 }
+
+footer, section{
+    width: 960px;
+    margin: 0 auto;
+   
+   }
+   
+   footer{
+    background-color: cornflowerblue;   
+   }
